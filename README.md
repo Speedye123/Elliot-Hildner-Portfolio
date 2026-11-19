@@ -1,31 +1,43 @@
 # Elliot Hildner: Sports Product Design Portfolio
 
-Static portfolio site (HTML/CSS/JS, no build step) for Elliot Hildner: B.S. Mechanical Engineering, Oregon State University; M.S. Sports Product Design (in progress), University of Oregon.
+Personal portfolio website for Elliot Hildner, featuring sports product design projects, engineering work, and selected side projects.
 
-**Live site:** https://mbrady2214.github.io/Elliot-Hildner-Portfolio/
+**Live site:** https://speedye123.github.io/Elliot-Hildner-Portfolio/
+
+Built with static HTML, CSS, and JavaScript. No build step is required.
 
 ## Pages
+
 | File | Page |
 | --- | --- |
-| `index.html` | Home: player card, highlights ticker, about, the Playbook, toolkit, education, selected work |
-| `projects.html` | Box score table, all case studies, side projects |
-| `project-shoe.html` | 01 PF Flyers Clover: beekeeping boot (3D sole viewer, tech pack) |
-| `project-jacket.html` | 02 PHLO Jacket: golf rain jacket |
-| `project-spikeshift.html` | 03 SpikeShift: roundnet cleat outsole (traction test) |
-| `project-goggles.html` | 04 The Rooster: flat track goggle (3D frame viewer) |
-| `project-sleeve.html` | 05 Recovery Sleeve: pitcher's compression sleeve |
-| `project-midsole.html` | 06 Lotus I: biomimicry midsole (3D viewer) |
-| `project-workshop.html` | Bat No. 01: woodturning build log |
-| `experience.html` | Studio record, work experience, education |
-| `contact.html` | Contact links and form |
+| `index.html` | Home, about, toolkit, education, and selected work |
+| `projects.html` | Case studies and side projects |
+| `project-shoe.html` | PF Flyers Clover beekeeping boot |
+| `project-jacket.html` | PHLO golf rain jacket |
+| `project-spikeshift.html` | SpikeShift roundnet cleat outsole |
+| `project-goggles.html` | The Rooster flat track goggle |
+| `project-sleeve.html` | Recovery compression sleeve |
+| `project-midsole.html` | Lotus I biomimicry midsole |
+| `project-workshop.html` | Bat No. 01 woodturning build log |
+| `experience.html` | Experience and education |
+| `contact.html` | Contact information and form |
 
-## Where things live
-- `assets/images/<page>/` web-sized images for each page (`shoe/`, `jacket/`, `spikeshift/`, `goggles/`, `sleeve/`, `midsole/`, `workshop/`, `about/`). Each project folder has a `deck/` folder of presentation slides; `shoe/techpack/` holds the tech pack pages.
-- `assets/docs/` Elliot's resume (`Elliot-Hildner-Resume.pdf`), the original presentation PDFs and the Clover tech pack.
-- `models/` GLB files for the 3D viewers, converted from Elliot's Rhino files.
-- `Media/` the raw drop of originals. Git-ignored, never published (one CAD file is over GitHub's 100 MB limit).
+## Project files
 
-See **[CONTENT-GUIDE.md](CONTENT-GUIDE.md)** for how to swap images, fill in the remaining placeholders and add projects. Raw, unsorted files can also go in **[_incoming/](_incoming/README.md)**.
+- `assets/images/` contains website images and presentation slides.
+- `assets/docs/` contains the resume and project documents.
+- `models/` contains the 3D model files used by project viewers.
+- `Media/` contains original working media and is excluded from GitHub.
 
-## Previewing locally
-Open the folder in VS Code and use **Live Server** (right-click `index.html` > *Open with Live Server*). The 3D models and the PDF links need a local server or a host like GitHub Pages; opening the HTML file directly won't load them.
+See [CONTENT-GUIDE.md](CONTENT-GUIDE.md) for guidance on updating images, project content, and placeholders. Unsorted files can go in [`_incoming/`](
+_incoming/README.md).
+
+## Run locally
+
+Open the project folder in VS Code and use the Live Server extension (right-click `index.html` and choose **Open with Live Server**). A local server is needed for 3D models and PDF links; opening the HTML file directly may not load them.
+
+## Publish with GitHub Pages
+
+In the repository on GitHub, open **Settings → Pages**. Set the source to **Deploy from a branch**, choose `main` and the root (`/`) folder, then save. After GitHub Pages publishes the site, it will be available at:
+
+https://speedye123.github.io/Elliot-Hildner-Portfolio/
